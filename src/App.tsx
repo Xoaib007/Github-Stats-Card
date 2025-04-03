@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import GitHubStatsCard from "./components/GitHubStatsCard";
 
+
 const App: React.FC = () => {
   const [darkMode, setDarkMode] = useState<boolean>(false); // Type the dark mode state
 
